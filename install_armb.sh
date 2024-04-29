@@ -1,3 +1,3 @@
-cd
 sudo cp -r ./OLIA-Linux-Zabbix/zabbix_conf_armb /opt/zabbix_conf_armb
-rm -r "$(./OLIA-Linux-Zabbix "$0")"
+APP_ROOT=$(./OLIA-Linux-Zabbix $(./OLIA-Linux-Zabbix $(readlink -fm $0)))
+#sudo rm -r "$(./OLIA-Linux-Zabbix/ "$0")"
