@@ -1,1 +1,2 @@
-sudo cp -r OLIA-Linux-Zabbix/zabbix_conf_armb /opt/zabbix_conf_armb
+#!/usr/bin/env bash
+sudo cp -r OLIA-Linux-Zabbix/zabbix_agent_conf /opt/zabbix_agent_conf
